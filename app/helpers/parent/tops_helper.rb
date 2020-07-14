@@ -1,0 +1,2 @@
+module Parent::TopsHelper
+end
