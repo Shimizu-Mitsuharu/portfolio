@@ -18,5 +18,6 @@ Rails.application.routes.draw do
     sessions: 'admins/sessions',
     passwords: 'admins/passwords',
     registrations: 'admins/registrations',
+
   }
 end
