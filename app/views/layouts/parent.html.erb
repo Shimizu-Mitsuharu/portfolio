@@ -10,9 +10,9 @@
 
 <body>
     <% content_for :content do %>
-    <%= render 'parent/top/header' %>
+    <%= render 'parent/tops/header' %>
     <%= yield %>
-    <%= render 'parent/top/footer' %>
+    <%= render 'parent/tops/footer' %>
     <% end %>
     <%= render template: "layouts/application" %>
 </body>

@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
 
+  root to: 'parent/tops#top'
+
   namespace :parent do
     get 'posts/new'
-    get 'top/top'
   end
   namespace :admin do
     get 'posts/new'
