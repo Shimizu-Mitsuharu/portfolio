@@ -70,3 +70,9 @@ gem 'devise-i18n'
 
 gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
+
+# デプロイ用MySQL
+gem 'dotenv-rails'
+group :production do
+  gem 'mysql2'
+end
