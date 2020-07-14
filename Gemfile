@@ -67,3 +67,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 # 日本語化
 gem 'devise-i18n'
+
+gem 'bootstrap', '~> 4.3.1'
+gem 'jquery-rails'
