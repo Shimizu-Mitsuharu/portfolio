@@ -1,3 +1,3 @@
 class Parent::Base < ApplicationController
-     layout 'parent'
+  layout 'parent'
 end
